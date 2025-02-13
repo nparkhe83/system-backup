@@ -11,8 +11,6 @@ if ! command -v brew &>/dev/null; then
   source ~/.zshrc
 fi
 
-source scripts/Mac/install_XCode.sh
-
 # Install Ansible
 brew install ansible
 echo "\n\n"
