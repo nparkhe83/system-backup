@@ -7,3 +7,9 @@
 
 # Code not used in the project
 archive
+
+# Devbox files
+.devbox
+
+.ansible
+*.vagrant
