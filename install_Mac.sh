@@ -1,6 +1,6 @@
 # Check if Homebrew is installed
 if ! command -v brew &>/dev/null; then
-  echo "\n\nHomebrew is not installed. Installing Homebrew..."
+  echo "\n\nHomebrew is not installed. Installing Homebrew...\n"
 
   # Install Homebrew
   # Run the following command as current user so that the Homebrew installation script can be run without any user confirmation prompt
@@ -13,6 +13,8 @@ if ! command -v brew &>/dev/null; then
   echo "\n\nUpdating Homebrew..."
   brew update
 fi
+
+source ~/.zshrc
 
 # Install Ansible
 echo "\n\nInstalling Ansible..."
