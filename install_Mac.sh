@@ -14,8 +14,6 @@ if ! command -v brew &>/dev/null; then
   brew update
 fi
 
-source ~/.zshrc
-
 # Install Ansible
 echo "\n\nInstalling Ansible..."
 brew install ansible

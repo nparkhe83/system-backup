@@ -13,5 +13,3 @@ if [[ "$OSTYPE" == "linux-gnu"* ]]; then
   # Run Linux installation script
   sudo -u $(logname) ./install_Linux.sh
 fi
-
-source ~/.zshrc
