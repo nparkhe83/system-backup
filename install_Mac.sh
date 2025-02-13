@@ -7,6 +7,7 @@ if ! command -v brew &>/dev/null; then
   sudo -u $(logname) /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
   echo 'export PATH=$PATH:/opt/homebrew/bin' >>~/.zshrc
+  echo "\n\nSourcing .zshrc..."
   source ~/.zshrc
 
   echo "\n\nUpdating Homebrew..."
