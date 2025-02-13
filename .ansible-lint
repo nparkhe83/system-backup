@@ -1,0 +1,9 @@
+exclude_paths:
+  - .github
+  - .vscode
+  - .git
+
+skip_list:
+  - fqcn
+  - name[missing]
+  - no-changed-when
